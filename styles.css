@@ -1,10 +1,11 @@
 @media screen and (max-width: 375px) {
   .container {
     min-height: 100%;
-    max-width: 375px;
-    width: 50%;
+    min-width: 375px;
+    width: 100%;
     height: auto;
     position: fixed;
+    display: grid;
   }
   .qr-code {
     width: 50%;
@@ -42,7 +43,7 @@ p {
 }
 
 .bold-text {
-  font-weight: 750;
+  font-weight: 700;
   font-size: 30px;
 }
 
